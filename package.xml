@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <name>airlab_gazebo</name>
+  <version>0.0.1</version>
+  <description>The airlab_gazebo package</description>
+  <maintainer email="olaya@ece.au.dk">olaya</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>gazebo_ros</depend>
+
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"
+                gazebo_model_path="${prefix}/models"/>
+  </export>
+
+</package>
