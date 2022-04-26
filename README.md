@@ -11,4 +11,6 @@ To spawn the obstacles in the cage:
 
     roslaunch airlab_gazebo spawn_obstacles.launch
 
+![](https://raw.githubusercontent.com/open-airlab/airlab_gazebo/main/media/obstacles.png)
+
 You can find the proposed waypoints in `config/waypoints.yaml`
