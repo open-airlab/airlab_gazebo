@@ -7,3 +7,8 @@ Do you want to have the AIRLab cage in your Gazebo environment? Just launch it a
 
     roslaunch airlab_gazebo airlab_cage.launch
 
+To spawn the obstacles in the cage:
+
+    roslaunch airlab_gazebo spawn_obstacles.launch
+
+You can find the proposed waypoints in `config/waypoints.yaml`
