@@ -19,7 +19,7 @@ waypoints:
       z: 2
   - point:
       x: 3
-      y: -2
+      y: -4
       z: 2
   - point:
       x: 0
